@@ -4,9 +4,21 @@ LLM Zoomcamp 2026 — Homework 2: Vector Search.
 
 ## Status
 
-Private starter project prepared on 16 October 2026 (Europe/Zurich). No homework question has been executed or answered. Public publication and course submission are deferred for later review.
+Public starter repository and dedicated Codespace created on 16 October 2026 (Europe/Zurich), with Gerhard's explicit authorization. No homework question has been executed or answered. Completed-solution publication and course submission remain deferred for later review.
 
-Each homework has its own repository and Codespace. Homework 1's workspace remains separate. GitHub currently reports that Codespaces are disabled for this private organisation repository; a separate access/visibility decision is required before starting its Codespace.
+Each homework has its own repository and Codespace. Homework 1's workspace remains separate.
+
+- Codespace: **friendly palm-tree**.
+- [Open the Homework 2 Codespace](https://friendly-palm-tree-x5gvr9rrpq4h9xxj.github.dev/).
+- Workspace: `/workspaces/llmz-02-vector-search`.
+- Setup checkpoint: the editor and starter files are visible. VS Code's folder-trust prompt blocks terminal access. Package installation, Python runtime checks, model download and kernel setup have not yet been performed.
+
+## Core links
+
+- [Course portal and Homework 2 submission](https://courses.datatalks.club/llm-zoomcamp-2026/homework/hw2).
+- [Module 2 — Vector Search lessons](https://github.com/DataTalksClub/llm-zoomcamp/tree/main/02-vector-search).
+- [Current Homework 2 requirements](https://github.com/DataTalksClub/llm-zoomcamp/blob/main/cohorts/2026/homework/02-vector-search/homework.md).
+- [Homework notebook](homework-02.ipynb).
 
 ## Requirements and provenance
 
