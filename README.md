@@ -11,7 +11,8 @@ Each homework has its own repository and Codespace. Homework 1's workspace remai
 - Codespace: **friendly palm-tree**.
 - [Open the Homework 2 Codespace](https://friendly-palm-tree-x5gvr9rrpq4h9xxj.github.dev/).
 - Workspace: `/workspaces/llmz-02-vector-search`.
-- Setup checkpoint: the editor and starter files are visible. VS Code's folder-trust prompt blocks terminal access. Package installation, Python runtime checks, model download and kernel setup have not yet been performed.
+- Setup verified on 16 October 2026 (Europe/Zurich): trusted workspace, Python 3.12.3 in the project virtual environment, uv 0.13.1, registered LLMZ Homework 2 kernel, installed dependencies and successful CPU ONNX model loading. See [setup evidence](setup-evidence.json) for versions, model revision and file hashes. The notebook remains unexecuted.
+- The startup-created local poetry.lock is preserved untracked; uv.lock is this project's dependency lock.
 
 ## Core links
 
@@ -28,7 +29,7 @@ Each homework has its own repository and Codespace. Homework 1's workspace remai
 - Official helpers copied unchanged from course commit `1c42efbeb8141c183e7ae51698ad912c70c06a06`, under `02-vector-search/embed/`. Some homework setup links still use an obsolete `cohorts/2026/` prefix.
 - `download.py` source blob: `8640a09f38f61de86b96bb60a0042552ee79bf23`.
 - `embedder.py` source blob: `db70ba8a124f8e91de2957001dda41e81ebe551e`.
-- The official downloader uses the model repository's default revision. Record the resolved model revision and file hashes when downloading. Model files have not yet been downloaded or verified.
+- The official downloader uses the model repository's default revision. The verified local download resolved to revision 751bff37182d3f1213fa05d7196b954e230abad9; [setup-evidence.json](setup-evidence.json) records both file hashes. Model files are kept locally and ignored by Git.
 
 ## Environment setup (administration)
 
@@ -37,11 +38,11 @@ Use a fresh project environment. Python 3.12 is selected for this project; Homew
 With `uv` available, run from the repository root:
 
 ```bash
-uv sync
+uv sync --locked
 uv run python -m ipykernel install --user --name llmz-hw2 --display-name "LLMZ Homework 2"
 uv run python download.py
 ```
 
-Retain the generated `uv.lock` for reproducibility. Dependencies have not been installed or runtime-verified yet. Model files and virtual environments are ignored by Git.
+The committed `uv.lock` records the installed dependency versions. Runtime imports, official helper hashes, notebook schema, kernel interpreter and CPU model loading have been verified. Model files and virtual environments are ignored by Git.
 
 Open `homework-02.ipynb`, select **LLMZ Homework 2**, and run only the environment-check cell. Continue one small learning cell at a time in chat; Q1–Q6 remain for learner execution.

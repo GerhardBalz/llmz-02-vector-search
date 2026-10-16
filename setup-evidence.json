@@ -1,0 +1,53 @@
+{
+  "verified_at": "2026-10-16T10:17:48.130944+02:00",
+  "codespace": "friendly palm-tree",
+  "workspace": "/workspaces/llmz-02-vector-search",
+  "python": "3.12.3",
+  "interpreter": "/workspaces/llmz-02-vector-search/.venv/bin/python",
+  "uv": "0.13.1",
+  "packages": {
+    "onnxruntime": "1.31.0",
+    "tokenizers": "0.23.3",
+    "numpy": "2.5.4",
+    "tqdm": "4.70.1",
+    "minsearch": "0.2.0",
+    "gitsource": "0.0.5",
+    "huggingface-hub": "2.2.0",
+    "jupyter": "1.1.1",
+    "ipykernel": "7.4.0"
+  },
+  "kernel": {
+    "name": "llmz-hw2",
+    "display_name": "LLMZ Homework 2",
+    "interpreter": "/workspaces/llmz-02-vector-search/.venv/bin/python"
+  },
+  "model": {
+    "repository": "Xenova/all-MiniLM-L6-v2",
+    "files": {
+      "tokenizer.json": {
+        "remote_file": "tokenizer.json",
+        "revision": "751bff37182d3f1213fa05d7196b954e230abad9",
+        "sha256": "da0e79933b9ed51798a3ae27893d3c5fa4a201126cef75586296df9b4d2c62a0",
+        "bytes": 711661
+      },
+      "model.onnx": {
+        "remote_file": "onnx/model.onnx",
+        "revision": "751bff37182d3f1213fa05d7196b954e230abad9",
+        "sha256": "759c3cd2b7fe7e93933ad23c4c9181b7396442a2ed746ec7c1d46192c469c46e",
+        "bytes": 90387606
+      }
+    },
+    "providers": [
+      "CPUExecutionProvider"
+    ],
+    "embedding_dimension": 384
+  },
+  "official_helper_git_blobs": {
+    "download.py": "8640a09f38f61de86b96bb60a0042552ee79bf23",
+    "embedder.py": "db70ba8a124f8e91de2957001dda41e81ebe551e"
+  },
+  "uv_lock_sha256": "1e441b3468bad9c8085bda2f17aebc4b0cb4b2a4ef7ffa4b7b4c7eff4d0fce6f",
+  "torch_installed": false,
+  "notebook_executed_cells": 0,
+  "learning_embeddings_computed": 0
+}
