@@ -1,0 +1,21 @@
+[project]
+name = "llmz-02-vector-search"
+version = "0.1.0"
+description = "LLM Zoomcamp 2026 Homework 2 — Vector Search"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "onnxruntime",
+    "tokenizers",
+    "numpy",
+    "tqdm",
+    "minsearch",
+    "gitsource",
+]
+
+[dependency-groups]
+dev = [
+    "huggingface-hub",
+    "jupyter",
+    "ipykernel",
+]
