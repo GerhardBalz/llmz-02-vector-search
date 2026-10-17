@@ -12,6 +12,7 @@ Each homework has its own repository and Codespace. Homework 1's workspace remai
 - [Open the Homework 2 Codespace](https://friendly-palm-tree-x5gvr9rrpq4h9xxj.github.dev/).
 - Workspace: `/workspaces/llmz-02-vector-search`.
 - Setup verified on 16 October 2026 (Europe/Zurich): trusted workspace, Python 3.12.3 in the project virtual environment, uv 0.13.1, registered LLMZ Homework 2 kernel, installed dependencies and successful CPU ONNX model loading. See [setup evidence](setup-evidence.json) for versions, model revision and file hashes. The notebook remains unexecuted.
+- Editor setup completed on 17 October 2026 (Europe/Zurich): workspace trust confirmed, project interpreter selected, and **LLMZ Homework 2 (Python 3.12.3)** selected in the notebook. Kernel discovery succeeded after the trusted editor reloaded and Python initialized. All cell sources remain unchanged, with zero executed code cells.
 - The startup-created local poetry.lock is preserved untracked; uv.lock is this project's dependency lock.
 
 ## Core links

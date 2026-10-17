@@ -49,5 +49,13 @@
   "uv_lock_sha256": "1e441b3468bad9c8085bda2f17aebc4b0cb4b2a4ef7ffa4b7b4c7eff4d0fce6f",
   "torch_installed": false,
   "notebook_executed_cells": 0,
-  "learning_embeddings_computed": 0
+  "learning_embeddings_computed": 0,
+  "editor_verification": {
+    "verified_at": "2026-10-17T09:41:04.935625+02:00",
+    "workspace_trusted": true,
+    "selected_kernel": "LLMZ Homework 2 (Python 3.12.3)",
+    "interpreter": "/workspaces/llmz-02-vector-search/.venv/bin/python",
+    "notebook_executed_cells": 0,
+    "cell_sources_unchanged": true
+  }
 }
