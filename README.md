@@ -4,15 +4,17 @@ LLM Zoomcamp 2026 — Homework 2: Vector Search.
 
 ## Status
 
-Public starter repository and dedicated Codespace created on 16 October 2026 (Europe/Zurich), with Gerhard's explicit authorization. No homework question has been executed or answered. Completed-solution publication and course submission remain deferred for later review.
+Q1–Q6 were completed through learner-run notebook cells on **17 October 2026 (Europe/Zurich)**. The notebook includes saved execution evidence and a recorded-answer summary. Publication and merge were authorized after completion. **Course submission has not been performed or verified.**
+
+The starter repository and dedicated Codespace were created on 16 October 2026. Their administrative zero-execution checkpoint is retained in Git history; it no longer describes the completed notebook.
 
 Each homework has its own repository and Codespace. Homework 1's workspace remains separate.
 
 - Codespace: **friendly palm-tree**.
 - [Open the Homework 2 Codespace](https://friendly-palm-tree-x5gvr9rrpq4h9xxj.github.dev/).
 - Workspace: `/workspaces/llmz-02-vector-search`.
-- Setup verified on 16 October 2026 (Europe/Zurich): trusted workspace, Python 3.12.3 in the project virtual environment, uv 0.13.1, registered LLMZ Homework 2 kernel, installed dependencies and successful CPU ONNX model loading. See [setup evidence](setup-evidence.json) for versions, model revision and file hashes. The notebook remains unexecuted.
-- Editor setup completed on 17 October 2026 (Europe/Zurich): workspace trust confirmed, project interpreter selected, and **LLMZ Homework 2 (Python 3.12.3)** selected in the notebook. Kernel discovery succeeded after the trusted editor reloaded and Python initialized. All cell sources remain unchanged, with zero executed code cells.
+- Setup verified on 16 October 2026 (Europe/Zurich): trusted workspace, Python 3.12.3 in the project virtual environment, uv 0.13.1, registered LLMZ Homework 2 kernel, installed dependencies and successful CPU ONNX model loading. See [setup evidence](setup-evidence.json) for versions, model revision and file hashes.
+- Editor setup completed on 17 October 2026 (Europe/Zurich): workspace trust confirmed, project interpreter selected, and **LLMZ Homework 2 (Python 3.12.3)** selected in the notebook. Kernel discovery succeeded after the trusted editor reloaded and Python initialized.
 - The startup-created local poetry.lock is preserved untracked; uv.lock is this project's dependency lock.
 
 ## Core links
@@ -46,4 +48,20 @@ uv run python download.py
 
 The committed `uv.lock` records the installed dependency versions. Runtime imports, official helper hashes, notebook schema, kernel interpreter and CPU model loading have been verified. Model files and virtual environments are ignored by Git.
 
-Open `homework-02.ipynb`, select **LLMZ Homework 2**, and run only the environment-check cell. Continue one small learning cell at a time in chat; Q1–Q6 remain for learner execution.
+Open `homework-02.ipynb` and select **LLMZ Homework 2** to reproduce the exercises in order. The notebook preserves the original learner-run cells and outputs; publication preparation added explanatory markdown without rerunning those cells.
+
+## Recorded results
+
+| Question | Recorded answer | Saved observation |
+| --- | --- | --- |
+| Q1 | **-0.02** | First coordinate -0.020582046681707114 |
+| Q2 | **0.37** | Cosine similarity 0.3610702427672444 |
+| Q3 | **02-vector-search/lessons/07-sqlitesearch-vector.md** | Chunk 94; similarity 0.6489018052329629 |
+| Q4 | **04-evaluation/lessons/05-search-metrics.md** | First vector result |
+| Q5 | **02-vector-search/lessons/08-pgvector.md** | Present in vector top five, absent from text top five |
+| Q6 | **01-agentic-rag/lessons/13-function-calling.md** | First result after RRF |
+
+These are learner-run observations for one pinned dataset, model and dependency environment. They do not establish general search quality, production readiness or a submitted/graded course result. The Q2/Q3 score difference is specific to the page and chunk compared.
+
+Code and outputs are retained from the learning session, including the equivalent `@` and `.dot()` calculations. Subsequent learning follows the lessons' sequence, variable names and notation, explaining necessary homework adaptations.
+
